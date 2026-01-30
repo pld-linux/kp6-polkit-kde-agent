@@ -8,7 +8,7 @@
 Summary:	Daemon providing a polkit authentication UI for KDE
 Name:		kp6-%{kpname}
 Version:	6.5.5
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-1-%{version}.tar.xz
