@@ -39,6 +39,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Daemon providing a polkit authentication UI for KDE.
 
+%description -l pl.UTF-8
+Demon dostarczający interfejs użytkownika do uwierzytelniania polkit
+dla KDE.
+
 %prep
 %setup -q -n %{kpname}-1-%{version}
 
