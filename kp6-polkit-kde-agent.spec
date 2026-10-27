@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.8.0
+%define		kdeplasmaver	6.8.2
 %define		qtver		5.15.2
 %define		kpname		polkit-kde-agent
 
 Summary:	Daemon providing a polkit authentication UI for KDE
 Name:		kp6-%{kpname}
-Version:	6.8.0
+Version:	6.8.2
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-1-%{version}.tar.xz
-# Source0-md5:	8229a0ec96ea6f1a9a5e69d862f684d8
+# Source0-md5:	fee942163aae0796a443dd8b115b532e
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.16.0
